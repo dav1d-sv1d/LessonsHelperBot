@@ -21,11 +21,3 @@ async def send_choice_language(message: types.Message):
 
     await message.answer(text="Выберите, на какой язык хотите сделать бронь.", reply_markup=select_language())
 
-    # await message.answer(text="dfhfrhfdh")
-    #
-    # await message.answer(text="dfgdfhgfd")
-    # await add_user(
-    #     user_id=message.from_user.id,
-    #     full_name=message.from_user.full_name
-    # )
-    #
